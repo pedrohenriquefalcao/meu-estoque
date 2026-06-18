@@ -73,7 +73,7 @@ public class SaborRepository {
         String sql = "DELETE FROM sabor WHERE id_sabor = ?";
 
         try (Connection conn = ConexaoDatabase.conectar();
-             PreparedStatement stmt = conn.prepareStatement()) {
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
 
             stmt.setInt(1, id);
             stmt.executeUpdate();
@@ -86,6 +86,4 @@ public class SaborRepository {
 
 
     }
-
-
 }
