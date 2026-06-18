@@ -1,15 +1,16 @@
 package com.meuestoque.model;
+import java.math.BigDecimal;
 
 public class Catalogo {
     private int idCatalogo;
     private String nomeProduto;
     private String descricao;
-    private double precoBase;
+    private BigDecimal precoBase;
 
     public Catalogo() {
     }
 
-    public Catalogo(int idCatalogo, String nomeProduto, String descricao, double precoBase) {
+    public Catalogo(int idCatalogo, String nomeProduto, String descricao, BigDecimal precoBase) {
         this.idCatalogo = idCatalogo;
         this.nomeProduto = nomeProduto;
         this.descricao = descricao;
@@ -41,11 +42,11 @@ public class Catalogo {
         this.descricao = descricao;
     }
 
-    public double getPrecoBase() {
+    public BigDecimal getPrecoBase() {
         return precoBase;
     }
 
-    public void setPrecoBase(double precoBase) {
+    public void setPrecoBase(BigDecimal precoBase) {
         this.precoBase = precoBase;
     }
 }
