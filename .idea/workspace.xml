@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="feat: SET do SaborRepository.java">
+    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="EU SLA">
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781745383529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: GET do SaborRepository.java">
+      <option name="closed" value="true" />
+      <created>1781745727256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781745727256</updated>
+    </task>
+    <task id="LOCAL-00009" summary="EU SLA">
+      <option name="closed" value="true" />
+      <created>1781745733687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781745733687</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -150,7 +166,9 @@
     <MESSAGE value="fix: puxando dados BD da env" />
     <MESSAGE value="feat: conexão com o BD pronta e online&#10;agora falta fazer o resto kkkkk até amanhã" />
     <MESSAGE value="feat: SET do SaborRepository.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: SET do SaborRepository.java" />
+    <MESSAGE value="feat: GET do SaborRepository.java" />
+    <MESSAGE value="EU SLA" />
+    <option name="LAST_COMMIT_MESSAGE" value="EU SLA" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
