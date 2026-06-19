@@ -1,22 +1,24 @@
 package com.meuestoque.model;
 
+import java.math.BigDecimal;
+
 public class Produto {
     private int idProduto;
-    private int idCatalogo;
-    private int idSabor;
-    private int idLote;
-    private double precoVenda;
+    private Catalogo idCatalogo;
+    private Sabor idSabor;
+    private Lote idLote;
+    private BigDecimal precoVenda;
 
-public Produto() {
-}
+    public Produto() {
+    }
 
-public Produto (int idProduto, int idCatalogo, int idSabor, int idLote, double precoVenda) {
-    this.idProduto = idProduto;
-    this.idCatalogo = idCatalogo;
-    this.idSabor = idSabor;
-    this.idLote = idLote;
-    this.precoVenda = precoVenda;
-}
+    public Produto(int idProduto, Catalogo idCatalogo, Sabor idSabor, Lote idLote, BigDecimal precoVenda) {
+        this.idProduto = idProduto;
+        this.idCatalogo = idCatalogo;
+        this.idSabor = idSabor;
+        this.idLote = idLote;
+        this.precoVenda = precoVenda;
+    }
 
     public int getIdProduto() {
         return idProduto;
@@ -26,35 +28,35 @@ public Produto (int idProduto, int idCatalogo, int idSabor, int idLote, double p
         this.idProduto = idProduto;
     }
 
-    public int getIdCatalogo() {
+    public Catalogo getIdCatalogo() {
         return idCatalogo;
     }
 
-    public void setIdCatalogo(int idCatalogo) {
+    public void setIdCatalogo(Catalogo idCatalogo) {
         this.idCatalogo = idCatalogo;
     }
 
-    public int getIdSabor() {
+    public Sabor getIdSabor() {
         return idSabor;
     }
 
-    public void setIdSabor(int idSabor) {
+    public void setIdSabor(Sabor idSabor) {
         this.idSabor = idSabor;
     }
 
-    public int getIdLote() {
+    public Lote getIdLote() {
         return idLote;
     }
 
-    public void setIdLote(int idLote) {
+    public void setIdLote(Lote idLote) {
         this.idLote = idLote;
     }
 
-    public double getPrecoVenda() {
+    public BigDecimal getPrecoVenda() {
         return precoVenda;
     }
 
-    public void setPrecoVenda(double precoVenda) {
+    public void setPrecoVenda(BigDecimal precoVenda) {
         this.precoVenda = precoVenda;
     }
 }
